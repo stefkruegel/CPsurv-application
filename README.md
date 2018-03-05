@@ -5,3 +5,5 @@ The paper mentioned above, which contains the underlying methods of ```CPsurv```
 Run the ```simulation-study.R``` script to reproduce the results published in section 4.4 of the paper. Please note the extended runtime for estimation with bias correction, particularly in combination with calculation of confidence intervals (because variance estimation of the changepoint is based on a bootstrap procedure). 
 
 Run the ```data-examples.R``` script to reproduce the estimation results in section 5 of the paper. The three data sets include real survival times of ICU (intensive care unit) patients. 
+
+The function ```sim.survdata``` is needed to simulate survival data for the simulation study.
